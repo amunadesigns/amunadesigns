@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+
+.contact-wrapper {
+	background-color: #161616;
+	padding: 50px 0;
+	background-image:url(../img/contact-bg.jpg);
+	background-position:center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+	width:100%;
+	height:auto;
+}
+.contact-info {
+	padding:0;
+}
+.contact-info h3 {
+	text-transform:uppercase;
+	font-size:18px;
+	color:#fff;
+	font-weight:300;
+	padding:0;
+}
+.contact-info p {
+	padding: 0 70px 50px 0;
+	color:#999999;
+}
+.contact-info ul {
+	padding: 0 0 50px 0;
+	list-style-type:none;
+	color:#cccccc;
+}
+.contact-info ul li {
+	padding:0 0 55px 0 ;
+}
+.contact-info li a {
+	color:#cccccc;
+	text-decoration:non;
+}
+.contact-info li a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+
+
+.i-two , i-four {
+}
+.i-one, .i-three {
+	float:left;
+	width:50%;
+}
+.contact-form {
+	padding: 15px 15px 0 15px;
+	color:#fff;
+}
+.form-group input {
+	padding:20px 15px;
+	font-size:12px;
+	text-transform:uppercase;
+	border-left:#fff solid 5px;
+	border-bottom: #fff solid 5px;
+	border-style:solid;
+	border-right: none;
+	border-top:none;
+	background-color:transparent;
+}
+.form-group textarea {
+	padding:20px 15px;
+	font-size:12px;
+	text-transform:uppercase;
+	border-left:#fff solid 5px;
+	border-bottom: #fff solid 5px;
+	border-style:solid;
+	border-right: none;
+	border-top:none;
+	background-color:transparent;
+	height:150px;	
+	max-width: 100%;
+	max-height:200px;
+}
+.form-group, .form-group input {
+	width:100%;
+	margin: 0 0 20px 0;
+
+}
+.form-group textarea {
+	margin: 0 0 10px 0;
+	width:100%;
+}
+.contact-form {
+	text-align: right;
+}
+.contact-form ul {
+	list-style-type:none;
+	margin:0;
+	text-transform:uppercase;
+}
+.form-group p {
+	margin:0;
+}
+.contact-oc {
+	text-align:center;	
+}
+.contact-oc {
+	padding: 50px 0;
+}
+.contact-oc h2 {
+	color:#161616;
+	font-size:25px;
+	text-transform:uppercase;
+	padding: 0 15px 10px 15px;
+}
+.contact-oc p {
+	max-width:400px;
+	margin: 0 auto;
+	padding: 0 15px 0 15px;
+	color:#666;
+}
+#contactForm .text-danger {
+    color: #e74c3c;
+	margin:0;
+}
+
+

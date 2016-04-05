@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimun-scale=1.0, initial-scale=1.0" />
+<title>Amuna Designs | Web Development and Photography</title>
+
+
+<!--------------------- CSS LINKS  --------------------->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/screen.css" />
+<link rel="stylesheet" type="text/css" href="css/port-detail.css" />
+<link rel="stylesheet" type="text/css" href="css/contact.css" />
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+<link rel="icon" type="image/png" href="img/fav.png" />
+
+</head>
+
+
+<body>
+
+	<div id="in-visible" class="navOverlay">
+    <div class="nav-menu">
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div><!-- nav-menu -->
+	</div><!-- navOverlay -->
+    
+              
+	<header class="site-header" id="nav-outter">
+    	<div class="wrapper">
+            <a href="index.html" class="amuna-logo">Logo</a>     
+            <nav>
+                <button type="button" role="button" aria-label="Toggle Navigation" class="lines-button x" id="navOpen">
+                  <span class="lines"></span>
+                </button>
+            </nav>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+   
+
+   <section class="contact-fullWidth" id="top">
+   
+   		<div class="wrapper contact-ts">
+        	<h1>Portfolio</h1>
+            <div class="divide"></div>
+            <p>This is a showcase of our work. We hope to add your company to this page as we grow and help others grow.</p>
+        </div>
+   </section><!-- close port-fullWidth -->
+    
+    <div class="grid-wrapper b_space">
+    
+    <div class="sort-btn">
+    
+        <button class="filter" data-filter="all">All</button>
+        <button class="filter" data-filter=".grid_web">Web Design</button>
+        <button class="filter" data-filter=".grid_photo">Photography</button>
+    
+    </div><!-- close sort-btn -->
+    
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grid_web mix">
+        <div class="portGridInner">      
+          <a href="native-being-detail.html">
+            <img src="img/native-being-thumb.jpg" />    
+            <div class="portGridContent">
+              <img src="img/i-eye.png" class="icon"/>
+              <h2>Native Being</h2>
+              <p>Web Design + Photography</p>
+            </div> <!-- close portGridContent -->
+          </a>
+        </div> <!-- close portGridContent -->
+    </div>
+    
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grid_photo mix">
+        <div class="portGridInner">      
+          <a href="trin-detail.html">
+            <img src="img/fashion-thumb.jpg" />    
+            <div class="portGridContent">
+              <img src="img/i-eye.png" class="icon"/>
+              <h2>Trinity Homes</h2>
+              <p>Photography</p>
+            </div> <!-- close portGridContent -->
+          </a>
+        </div> <!-- close portGridContent -->
+    </div>
+    
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 grid_web mix">
+        <div class="portGridInner">      
+          <a href="mar-detail.html">
+            <img src="img/mar-thumb.jpg" />    
+            <div class="portGridContent">
+              <img src="img/i-eye.png" class="icon"/>
+              <h2>Mar Creative</h2>
+              <p>Web Design</p>
+            </div> <!-- close portGridContent -->
+          </a>
+        </div> <!-- close portGridContent -->
+    </div>   
+        
+    <div class="clearfix"></div>
+  
+    </div><!-- close grid-wrapper -->
+              
+   <a href="#top"  alt="back to top" id="btt-btn" class="btt-wrap scrollTop">↑</a>                      
+   
+   <footer>
+   		<div class="wrapper">
+   
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <p></p>
+            </div>
+            
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <img src="img/footer-icon.png" />
+            </div>
+    
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <p>Copyright Amunadesigns 2015</p>
+            </div>
+
+   		</div>
+   </footer>     
+   
+   <div id="preload-sub">
+   		<img src="img/done.gif" />
+   		<p class="loading">Loading...</p>
+   </div>   
+   
+<!--------------------- SCRIPTS  --------------------->
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/jquery.mixitup.js"></script>
+<script src="js/basic.js"></script>
+
+<script>
+	$( function() {
+		$( ".grid-wrapper").mixItUp();
+	});
+	
+</script>
+
+</body>
+</html>
